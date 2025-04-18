@@ -46,7 +46,7 @@ def predict():
     
     try:
         # save the original file
-        filename = f'{uuid.uuid4()}.{secure_filename(file.filename).split('.')[-1]}'
+        filename = '{}.{}'.format(uuid.uuid4(), secure_filename(file.filename).split('.')[-1])
         filepath = os.path.join(app.config['UPLOAD_FOLDER'], filename)
         file.save(filepath)
 
