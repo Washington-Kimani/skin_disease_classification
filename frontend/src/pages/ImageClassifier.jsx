@@ -39,7 +39,7 @@ export default function ImageClassifier() {
       formData.append("file", blob, "image.jpg");
 
       const response = await axios.post(
-        "http://localhost:5000/predict",
+        import.meta.env.VITE_API_URL,
         formData,
         {
           headers: {

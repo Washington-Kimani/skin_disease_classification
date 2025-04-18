@@ -22,7 +22,8 @@ cors = CORS(app,
                 "origins": [
                     "http://localhost:5173",
                     "http://127.0.0.1:5173",
-                    "http://192.168.0.122:5173/"
+                    "http://192.168.0.122:5173/",
+                    "https://skin-disease-classification-1.onrender.com"
                 ],
                 "methods": ["POST"],
                 "allow_headers": ["Content-Type"]
