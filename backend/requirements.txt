@@ -1,0 +1,10 @@
+flask
+tensorflow
+keras
+opencv-python
+google-genai
+numpy
+pandas
+flask_cors
+Pillow
+python-dotenv
